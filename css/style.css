@@ -29,7 +29,7 @@ header .encabezado{
         width: 100%;
         max-width: 75rem;
         position: relative;
-        position: fixed;
+        /* position: fixed; */
     }
     nav{
         position: absolute;
@@ -98,4 +98,65 @@ img{
 }
 .clear{
     clear: both;
+}
+.contenedor{
+    width: 800px;
+    margin: 25px auto;
+}
+.contenedor .fondo{
+    background-image: url(../images/universidades.png);
+    background-size: 100%;
+    width: 100%;
+    padding-top: 57%;
+    position: relative;
+}
+.contenedor .fondo .seccion{
+    background-color: rgba(143, 188, 143, 0.2);
+    box-shadow: 3px 3px 3px 1px #ffffff ;
+    border-radius: 25px;
+    border: 1px;
+    position: absolute;
+    width: 35%;
+    height: 14%;
+}
+.contenedor .fondo .seccion.uno{
+    top: 8%;
+    left: 3%;
+}
+.contenedor .fondo .seccion.dos{
+    top: 20%;
+    left: 36%;
+    width: 30%;
+}
+.contenedor .fondo .seccion.tres{
+    top: 10%;
+    left: 72%;
+    height: 20%;
+    width: 25%;
+}
+.contenedor .fondo .seccion.cuatro{
+    top: 47%;
+    left: 55%;
+}
+.contenedor .fondo .seccion.cinco{
+    top: 40%;
+    left: 10%;
+    width: 25%;
+}
+.contenedor .fondo .seccion.seis{
+    top: 70%;
+    left: 10%;
+    width: 30%;
+    height: 20%;
+}
+.contenedor .fondo .seccion.siete{
+    top: 75%;
+    left: 60%;
+}
+.contenedor .fondo .ocho{
+    position:absolute;
+    top: 38%;
+    left: 35%;
+    width: 18%;
+    height: 19%;
 }
